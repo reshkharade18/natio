@@ -15,7 +15,7 @@
 .dynamic:hover{
   
    max-width:400px;
-   height: 200px;
+   height: 300px;
   
   -webkit-transform:translate(20px,100px);
    transform:translate(20px,100px); 
