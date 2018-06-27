@@ -9,7 +9,7 @@
     <app-child *ngIf="showChild" [title]="title"></app-child>
   </div>
 
-  <label for="title">Title:</label>
+  <label for="title">Title Done:</label>
   <input type="text" id="title" (change)="onChange(inputtitle.value)" #inputtitle [value]="title">
 
   <button (click)="toggleChild()">Toggle child component</button>
