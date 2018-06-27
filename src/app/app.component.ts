@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  showChild: boolean = true;
   title = 'app';
+  bool:boolean=true;
+ constructor(){}
+  onChange(value) {
+    this.title = value;
+  }
+ 
+  toggleChild() {
+    this.showChild = !this.showChild;
+  
+  }
+
+  lessons:boolean=true;
 }

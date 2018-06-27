@@ -1,0 +1,29 @@
+.first-div{
+    background-color:gold;
+    max-width: 300px;
+    height: 100px;
+    margin-left: 500px;
+    padding-top:50px;
+   webkit-transition:  max-width 4s,height 4s,-webkit-transform 4s; 
+    transition:  max-width 4s,height 4s,transform 4s; 
+    /* -webkit-transition-delay: 3s;
+    transition-delay: 3s; */
+ -webkit-animation: mymove 5s infinite;
+ animation: mymove 5s infinite;
+}
+
+.dynamic:hover{
+  
+   max-width:400px;
+   height: 200px;
+  
+  -webkit-transform:translate(20px,100px);
+   transform:translate(20px,100px); 
+   /* -webkit-transition-timing-function: ease-in; */
+    /* height: 200px; */
+    /* padding-top:100px; */
+}
+@keyframes mymove {
+    from {background-color: #00ffff;}
+    to {background-color: blue;}
+}
